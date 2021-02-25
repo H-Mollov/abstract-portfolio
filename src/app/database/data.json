@@ -57,14 +57,14 @@
             "description": "Curious about the code behind the portfolio you are seeing? I've got you coverred! Link to the github repository can be found below.",
             "image": "../../assets/projectLogos/portfolio.png",
             "codeUrl": "https://github.com/H-Mollov/H-Mollov.github.io",
-            "previewUrl": "",
+            "previewUrl": "https://h-mollov.github.io",
             "category": "portfolio"
         },
         {
             "name": "Centralized - Portfolio",
-            "description": "Simplified portfolio with centralized navigation. Light on background images and load ",
-            "image": "../../assets/projectLogos/portfolio.png",
-            "codeUrl": "https://github.com/H-Mollov/H-Mollov.github.io",
+            "description": "Simplified portfolio with centralized navigation. Light on background images and load-time.",
+            "image": "../../assets/projectLogos/abstract-portfolio.png",
+            "codeUrl": "https://github.com/H-Mollov/abstract-portfolio",
             "previewUrl": "",
             "category": "portfolio"
         }
