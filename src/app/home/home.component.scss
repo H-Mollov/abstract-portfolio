@@ -207,6 +207,12 @@ img#background-image {
         &:hover {
             cursor: pointer;
         }
+
+        @media (max-width: 800px) {
+            top: 5px;
+            right: 5px;
+            font-size: 35px;
+        }
     }
 
     div {
@@ -224,12 +230,33 @@ img#background-image {
         border: 5px solid rgb(0, 0, 0, 0.5);
         z-index: 10;
 
+        @media (max-width: 1500px) {
+            width: 70%;
+        }
+
+        @media (max-width: 1100px) {
+            width: 80%;
+        }
+
         h3 {
             font-size: 50px;
             color: white;
             margin-bottom: 20px;
             flex-basis: 100%;
             text-align: center;
+
+            @media (max-width: 1100px) {
+                font-size: 35px;
+            }
+
+            @media (max-width: 700px) {
+                font-size: 30px;
+            }
+
+            @media (max-width: 550px) {
+                font-size: 24px;
+                margin-bottom: 5px;
+            }
         }
     }
 
@@ -242,8 +269,24 @@ img#background-image {
             background: rgba(85, 101, 135, 0.6);
             border: 2px solid rgb(0, 0, 0, 0.5);
 
+            @media (max-width: 1100px) {
+                font-size: 20px;
+            }
+
+            @media (max-width: 700px) {
+                font-size: 18px;
+            }
+
+            @media (max-width: 500px) {
+                font-size: 12px;
+            }
+
             p {
                 margin: 20px 0;
+
+                @media (max-width: 700px) {
+                    margin-bottom: 10px 0;
+                }
             }
         }
 
@@ -324,12 +367,21 @@ img#background-image {
             list-style: none;
             display: flex;
             justify-content: space-around;
-            width: 50%;
+            width: 100%;
             margin: 30px 0;
             padding: 20px 0;
             border-top: 2px solid rgb(0, 0, 0, 0.5);
             border-bottom: 2px solid rgb(0, 0, 0, 0.5);
             background: rgba(85, 101, 135, 0.6);
+
+            @media (max-width: 700px) {
+                flex-direction: column;
+                width: 50%;
+            }
+
+            @media (max-width: 500px) {
+                width: 60%;
+            }
 
             li {
                 a {
@@ -340,6 +392,18 @@ img#background-image {
                     font-size: 24px;
                     transition: color 0.5s;
 
+                    @media (max-width: 850px) {
+                        font-size: 20px;
+                    }
+
+                    @media (max-width: 700px) {
+                        margin: 0 0 10px 10px;
+                    }
+                    
+                    @media (max-width: 500px) {
+                        font-size: 16px;
+                    }
+
                     &:hover {
                         color: black;
                     }
@@ -347,6 +411,14 @@ img#background-image {
                     i {
                         font-size: 40px;
                         margin-right: 10px;
+
+                        @media (max-width: 850px) {
+                            font-size: 30px;
+                        }
+
+                        @media (max-width: 500px) {
+                            font-size: 25px;
+                        }
                     }
                 }
             }
@@ -356,8 +428,17 @@ img#background-image {
     .certificates {
         display: none;
 
+        @media (max-width: 500px) {
+            padding: 5px;
+            width: 95%;
+        }
+
         i {
             font-size: 75px;
+
+            @media (max-width: 900px) {
+                font-size: 50px;
+            }
         }
 
         ul {
@@ -392,6 +473,10 @@ img#background-image {
                     &:hover {
                         background: #876956;
                     }
+
+                    @media (max-width: 900px) {
+                        font-size: 16px;
+                    }
                 }
             }
 
@@ -404,6 +489,11 @@ img#background-image {
                 margin: 0 10px;
                 width: 46px;
                 height: 75px;
+
+                @media (max-width: 900px) {
+                    width: 32px;
+                    height: 50px;
+                }
             }
 
             li:first-child:hover,
@@ -417,16 +507,38 @@ img#background-image {
                 flex-direction: column;
                 margin: 0 25px;
                 text-align: center;
+
+                @media (max-width: 900px) {
+                    margin: 0;
+                    width: 50%;
+                }
+
+                @media (max-width: 700px) {
+                    width: 60%;
+                }
+
+                @media (max-width: 500px) {
+                    width: 70%;
+                }
             }
 
             #previous-certificate,
             #next-certificate {
                 width: 20%;
+
+                @media (max-width: 900px) {
+                    display: none;
+                }
             }
         }
     }
 
     .projects {
+
+        @media (max-width: 550px) {
+            padding: 5px;
+        }
+
         ul {
             list-style: none;
 
@@ -441,6 +553,10 @@ img#background-image {
 
                 img {
                     width: 20%;
+
+                    @media (max-width: 800px) {
+                        display: none;
+                    }
                 }
 
                 article {
@@ -451,14 +567,36 @@ img#background-image {
                     h4 {
                         font-size: 30px;
                         flex-basis: 100%;
+
+                        @media (max-width: 700px) {
+                            font-size: 24px;
+                        }
+
+                        @media (max-width: 550px) {
+                            font-size: 20px;
+                        }
                     }
 
                     p {
                         font-size: 20px;
                         flex-basis: 100%;
+                        margin: 10px 0;
+
+                        @media (max-width: 1100px) {
+                            font-size: 18px;
+                        }
+
+                        @media (max-width: 900px) {
+                            font-size: 16px;
+                        }
+
+                        @media (max-width: 550px) {
+                            font-size: 14px;
+                        }
                     }
 
                     a {
+                        display: flex;
                         flex-basis: 15%;
                         text-decoration: none;
                         text-transform: uppercase;
@@ -470,6 +608,14 @@ img#background-image {
                         margin: 0px auto;
                         text-align: center;
                         transition: background 0.5s;
+
+                        @media (max-width: 700px) {
+                            font-size: 14px;
+                        }
+
+                        @media (max-width: 550px) {
+                            font-size: 12px;
+                        }
 
                         &:hover {
                             background: #876956;
