@@ -1,0 +1,78 @@
+<img src="../../assets/background.jpg" alt="background.jpg" id="background-image">
+<section class="center">
+    <figure>
+        <img src="../../assets/logo.png" alt="logo.png">
+    </figure>
+</section>
+<section class="navigation">
+    <div class="top">
+        <span (click)="showForm($event)">About</span>
+        <span (click)="showForm($event)">Contacts</span>
+    </div>
+    <div class="bottom">
+        <span (click)="showForm($event)">Certificates</span>
+        <span (click)="showForm($event)">Projects</span>
+    </div>
+</section>
+<section #focus id="focus" >
+    <i class="far fa-times-circle" (click)="closeForm($event)"></i>
+    <div class="about">
+        <h3>About</h3>
+        <article>
+            <p>I started my jurney learning Java Script, and continued investigating its vast potential. Picking up
+                whatever I could along the way, my current aim is becoming a Full Stack Developer, not
+                limited by a programming language or framework.
+            </p>
+            <p>It brings me joy to explore new and unique situations, alongside all of the
+                benefits and problems they come with. Besides the ability to create marvelous applications, solving a
+                difficult problem has its own distinguishable feeling. But in the end, understanding whats under the
+                hood of technology is a feeling in a league of its own.
+            </p>
+            <p> I will continue on the path of Technology and its infinite possibilities, adapting to anything that
+                comes my way. Its going ot be a long and bumpy ride, and I intend to enjoy the most of it!
+            </p>
+        </article>
+        <ul>
+            <li><img src="../../assets/logos/javascript-logo.png" alt="js-logo.png"></li>
+            <li><img src="../../assets/logos/html-logo.png" alt="html-logo.png"></li>
+            <li><img src="../../assets/logos/css-logo.png" alt="css-logo.png"></li>
+            <li><img src="../../assets/logos/sass-logo.png" alt="sass-logo.png"></li>
+            <li><img src="../../assets/logos/angular-logo.png" alt="angular-logo.pnb"></li>
+            <li><img src="../../assets/logos/ts-logo.png" alt="ts-logo.png"></li>
+            <li><img src="../../assets/logos/nodejs-logo.png" alt="nodejs-logo.png"></li>
+            <li><img src="../../assets/logos/mongodb-logo.png" alt="mongodb-logo.png"></li>
+            <li><img src="../../assets/logos/mocha-logo.png" alt="mocha-logo.png"></li>
+            <li><img src="../../assets/logos/git-logo.png" alt="git-logo.png"></li>
+            <li class="inProgress">
+                <figure>
+                    <img src="../../assets/logos/react-logo.png" alt="react-logo.png">
+                    <figcaption>In Progress...</figcaption>
+                </figure>  
+            </li>
+        </ul>
+    </div>
+    <div class="contacts">
+        <h3>Contacts</h3>
+    </div>
+    <div class="certificates">
+        <h3>Certificates</h3>
+        <ul>
+            <li (click)="previousCertificate($event)"><i class="fas fa-chevron-left"></i></li>
+            <li id="previous-certificate">
+                <img src="{{certificates[certificates.length - 1].frontImage}}" alt="focused-certificate.png">
+            </li>
+            <li id="focused-certificate">
+                <img src="{{certificates[0].frontImage}}" alt="focused-certificate.png">
+                <a href="{{certificates[0].url}}" target="_blank">Verify</a>
+            </li>
+            <li id="next-certificate">
+                <img src="{{certificates[1].frontImage}}" alt="focused-certificate.png">
+            </li>
+            <li (click)="nextCertificate($event)"><i class="fas fa-chevron-right"></i></li>
+        </ul>
+        
+    </div>
+    <div class="projects">
+        <h3>Projects</h3>
+    </div>
+</section>

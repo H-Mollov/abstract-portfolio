@@ -1,0 +1,72 @@
+{
+    "certificates": [
+        {
+            "name": "JavaScript Web Developer Diploma",
+            "url": "https://softuni.bg/certificates/details/97539/aea14998",
+            "frontImage": "../../assets/certificates/Diploma for JS Web Developer.png",
+            "backImage": "../../assets/certificates/Diploma for JS Web Developer - back.png"
+        },
+        {
+            "name": "JavaScript Advanced",
+            "url": "https://softuni.bg/certificates/details/83832/1fa2f101",
+            "frontImage": "../../assets/certificates/JS Advanced - May 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/JS Advanced - May 2020 - Certificate - back.png"
+        },
+        {
+            "name": "JavaScript Application",
+            "url": "https://softuni.bg/certificates/details/86772/0e950c69",
+            "frontImage": "../../assets/certificates/JS Applications - June 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/JS Applications - June 2020 - Certificate - back.png"
+        },
+        {
+            "name": "JavaScript Back-End",
+            "url": "https://softuni.bg/certificates/details/92298/1990fb08",
+            "frontImage": "../../assets/certificates/JS Back-End - September 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/JS Back-End - September 2020 - Certificate - back.png"
+        },
+        {
+            "name": "HTML & CSS",
+            "url": "https://softuni.bg/certificates/details/91287/a29d8aba",
+            "frontImage": "../../assets/certificates/HTML & CSS - September 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/HTML & CSS - September 2020 - Certificate - back.png"
+        },
+        {
+            "name": "Front-End Framework - Angular",
+            "url": "https://softuni.bg/certificates/details/94731/a61b176a",
+            "frontImage": "../../assets/certificates/Angular - November 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/Angular - November 2020 - Certificate - back.png"
+        },
+        {
+            "name": "JavaScript Fundamentals",
+            "url": "https://softuni.bg/certificates/details/79378/150c147a",
+            "frontImage": "../../assets/certificates/JS Fundamentals - January 2020 - Certificate.png",
+            "backImage": "../../assets/certificates/JS Fundamentals - January 2020 - Certificate - back.png"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Minesweeper",
+            "description": "Play the classical minesweeper game and try to clear out all the mines on the field. Be carefull though, one wrong move and you'll be blasted to bits! Comes in three modes, each more difficult than the previous one! Have fun!",
+            "image": "../../assets/projectLogos/minesweeper.png",
+            "codeUrl": "https://github.com/H-Mollov/minesweeper",
+            "previewUrl": "https://hm-minesweeper.netlify.app/",
+            "category": "games"
+        },
+        {
+            "name": "Abstract Blue - Portfolio",
+            "description": "Curious about the code behind the portfolio you are seeing? I've got you coverred! Link to the github repository can be found below.",
+            "image": "../../assets/projectLogos/portfolio.png",
+            "codeUrl": "https://github.com/H-Mollov/H-Mollov.github.io",
+            "previewUrl": "",
+            "category": "portfolio"
+        },
+        {
+            "name": "Centralized - Portfolio",
+            "description": "Simplified portfolio with centralized navigation. Light on background images and load ",
+            "image": "../../assets/projectLogos/portfolio.png",
+            "codeUrl": "https://github.com/H-Mollov/H-Mollov.github.io",
+            "previewUrl": "",
+            "category": "portfolio"
+        }
+    ]
+}
