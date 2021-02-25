@@ -65,7 +65,7 @@
             "description": "Simplified portfolio with centralized navigation. Light on background images and load-time.",
             "image": "../../assets/projectLogos/abstract-portfolio.png",
             "codeUrl": "https://github.com/H-Mollov/abstract-portfolio",
-            "previewUrl": "",
+            "previewUrl": "https://hm-abstract-p.netlify.app/",
             "category": "portfolio"
         }
     ]
